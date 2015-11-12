@@ -23,7 +23,7 @@ public class Main {
 		
 		cfg.setClassForTemplateLoading(Main.class, "/com/ksn/codegen/demo");
 		
-		Template tmp = cfg.getTemplate("pojo.flt");
+		Template tmp = cfg.getTemplate("pojo.ftl");
 		
 		Map data = new HashMap();
 		data.put("package", "com.ksn.codegen.core");
